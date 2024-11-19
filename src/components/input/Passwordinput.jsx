@@ -13,13 +13,13 @@ const Passwordinput = ({value,onChange,placeholder}) => {
     };
 
   return (
-    <div className='flex items-center bg-transparent border-[1.5px] px-5 rounded mb-3'>
+    <div className='flex items-center bg-transparent border-[1.5px] rounded mb-3'>
       <input
       value={value}
       onChange={onChange}
       type="password"
       placeholder={placeholder || "Password"}
-      className='w-full text-sm bg-transparent py-3 mr-3 rounded outline-none'/>
+      className='w-full text-sm bg-transparent py-3 px-3 rounded outline-none'/>
 
       {/* <FaRegEye
       size={17}
